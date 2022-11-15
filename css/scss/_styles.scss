@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: antiquewhite;
+  padding: 2%;
+}
+
+.title {
+  @include style(var(--color-primary));
+}
+
+.parrafo {
+  @include style($color-secondary);
+}
+
+.listado {
+  width: 25%;
+  background-color: rgba($color: white, $alpha: 0.7);
+  backdrop-filter: blur(0.4rem);
+  border-radius: 5px;
+  box-shadow: 0.7rem 0.7rem 1rem rgba($color: rgb(253, 207, 147), $alpha: 1);
+
+  ul{
+    color: lightgrey;
+
+    li{
+      list-style: none;
+      padding: 5px 10px;
+
+      &:hover{
+        color: white;
+        border: 1px solid rgb(253, 207, 147);
+        border-radius: 5px;
+        width: fit-content;
+      }
+    }
+  }
+}

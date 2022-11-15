@@ -1,0 +1,14 @@
+.btn{
+  border: none;
+  padding: 5px 10px;
+  width: fit-content;
+  margin: 1%;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.btn-2{
+  @extend .btn;
+  background-color: azure;
+  color: red;
+}

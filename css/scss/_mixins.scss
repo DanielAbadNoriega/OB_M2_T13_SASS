@@ -1,0 +1,11 @@
+:root {
+  --color-primary: lightgrey;
+}
+
+$color-secondary: lightblue;
+
+@mixin style($color: white) {
+  padding: 1%;
+  margin: 0;
+  color: $color;
+}

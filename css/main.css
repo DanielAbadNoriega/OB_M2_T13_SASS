@@ -1,14 +1,10 @@
-/* Mixins */
 :root {
   --color-primary: lightgrey;
 }
 
-/* Components */
 .btn, .btn-2 {
   border: none;
   padding: 5px 10px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   margin: 1%;
   background-color: aqua;
@@ -20,7 +16,6 @@
   color: red;
 }
 
-/* Styles */
 body {
   margin: 0;
   padding: 0;
@@ -47,8 +42,7 @@ body {
 .listado {
   width: 25%;
   background-color: rgba(255, 255, 255, 0.7);
-  -webkit-backdrop-filter: blur(0.4rem);
-          backdrop-filter: blur(0.4rem);
+  backdrop-filter: blur(0.4rem);
   border-radius: 5px;
   box-shadow: 0.7rem 0.7rem 1rem #fdcf93;
 }
@@ -63,7 +57,19 @@ body {
   color: white;
   border: 1px solid rgb(253, 207, 147);
   border-radius: 5px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* Metodo antiguo */
+/* Mixins */
+/* @import "scss/mixins"; */
+/* Components */
+/* @import "scss/components"; */
+/* Styles */
+/* @import "scss/styles"; */
+/* Dart SASS */
+/* Mixins */
+/* Components */
+/* Styles */
+
+/*# sourceMappingURL=main.css.map */

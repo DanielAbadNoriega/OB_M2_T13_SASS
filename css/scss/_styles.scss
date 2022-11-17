@@ -1,3 +1,5 @@
+@use "mixins";
+
 body {
   margin: 0;
   padding: 0;
@@ -10,11 +12,11 @@ body {
 }
 
 .title {
-  @include style(var(--color-primary));
+  @include mixins.style(var(--color-primary));
 }
 
 .parrafo {
-  @include style($color-secondary);
+  @include mixins.style(mixins.$color-secondary);
 }
 
 .listado {

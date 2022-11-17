@@ -1,15 +1,27 @@
+/* Metodo antiguo */
+
 /* Mixins */
-@import "scss/mixins";
+/* @import "scss/mixins"; */
 
 /* Components */
-@import "scss/components";
+/* @import "scss/components"; */
 
 /* Styles */
-@import "scss/styles";
+/* @import "scss/styles"; */
 
+// -------------------------------------
 
+/* Dart SASS */
 
+/* Mixins */
+@use "scss/mixins" as mixins;
+//si hay variables -> mixins.$color
 
+/* Components */
+@use "scss/components" as comp;
+
+/* Styles */
+@use "scss/styles";
 
 
 
